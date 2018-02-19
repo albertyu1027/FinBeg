@@ -12,21 +12,26 @@ class Base extends Component {
 				<a href="#st-panel-2">Pie</a>
 				<input type="radio" name="radio-set" checked="checked" id="st-control-3"/>
 				<a href="#st-panel-3">Dots</a>
+				<input type="radio" name="radio-set" checked="checked" id="st-control-4"/>
+				<a href="#st-panel-4">Read</a>
 
 				<div className="st-scroll">
-					<section className="st-panel st-color" id="st-panel-1">
+					<section className="st-panel" id="st-panel-1">
 					<h2>World Map</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
 					</section>
 
-					<section className="st-panel st-color" id="st-panel-2">
-					<h2>PIE</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
+					<section className="st-panel" id="st-panel-2">
 					<Chart />
 					</section>
 
-					<section className="st-panel st-color" id="st-panel-3">
+					<section className="st-panel" id="st-panel-3">
 					<h2>Knowledge</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
+					</section>
+
+					<section className="st-panel" id="st-panel-4">
+					<h2>Articles</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
 					</section>
 				</div>

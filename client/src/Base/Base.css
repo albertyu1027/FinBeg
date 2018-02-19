@@ -10,7 +10,7 @@
 .st-container > input, .st-container > a {
 	position: fixed;
 	bottom: 0px;
-	width: 33.33%;
+	width: 25%;
 	cursor: pointer;
 	font-size: 16px;
 	height: 34px;
@@ -46,13 +46,16 @@
 }
 
 #st-control-2, #st-control-2 + a {
-	left: 33.33%;
+	left: 25%;
 }
 
 #st-control-3, #st-control-3 + a {
-	left: 66.66%;
+	left: 50%;
 }
 
+#st-control-4, #st-control-4 + a {
+	left: 75%;
+}
 /*tab color change when selected*/
 .st-container > input:checked + a, .st-container > input:checked:hover + a {
 	background: #821134;
@@ -126,6 +129,13 @@
 	-ms-transform: translateY(-200%);
 	transform: translateY(-200%);
 }
+#st-control-4:checked ~ .st-scroll {
+	-webkit-transform: translateY(-300%);
+	-moz-transform: translateY(-300%);
+	-o-transform: translateY(-300%);
+	-ms-transform: translateY(-300%);
+	transform: translateY(-300%);
+}
 /*section h2 effect*/
 .st-panel h2 {
 	color: #e23a6e;
@@ -145,7 +155,8 @@
 
 #st-control-1:checked ~ .st-scroll #st-panel-1 h2,
 #st-control-2:checked ~ .st-scroll #st-panel-2 h2,
-#st-control-3:checked ~ .st-scroll #st-panel-3 h2 {
+#st-control-3:checked ~ .st-scroll #st-panel-3 h2,
+#st-control-4:checked ~ .st-scroll #st-panel-4 h2 {
 	-webkit-animation: moveDown 0.6s ease-in-out 0.2s backwards;
 	-moz-animation: moveDown 0.6s ease-in-out 0.2s backwards;
 	-o-animation: moveDown 0.6s ease-in-out 0.2s backwards;
@@ -225,7 +236,8 @@
 
 #st-control-1:checked ~ .st-scroll #st-panel-1 p,
 #st-control-2:checked ~ .st-scroll #st-panel-2 p,
-#st-control-3:checked ~ .st-scroll #st-panel-3 p {
+#st-control-3:checked ~ .st-scroll #st-panel-3 p,
+#st-control-4:checked ~ .st-scroll #st-panel-4 p  {
 	-webkit-animation: moveUp 0.6s ease-in-out 0.2s backwards;
 	-moz-animation: moveUp 0.6s ease-in-out 0.2s backwards;
 	-o-animation: moveUp 0.6s ease-in-out 0.2s backwards;
