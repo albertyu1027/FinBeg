@@ -13,18 +13,18 @@ class World extends Component {
 				<a href="#st-panel-3">Dots</a>
 
 				<div class="st-scroll">
-					<section class="st-panel" id="st-panel-1">
+					<section class="st-panel st-color" id="st-panel-1">
 					<h2>World Map</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
 					</section>
 
-					<section class="st-panel" id="st-panel-2">
-					<h2>Serving you yummy PIE</h2>
+					<section class="st-panel st-color" id="st-panel-2">
+					<h2>PIE</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
 					</section>
 
-					<section class="st-panel" id="st-panel-3">
-					<h2>Drain the knowledge</h2>
+					<section class="st-panel st-color" id="st-panel-3">
+					<h2>Knowledge</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
 					</section>
 				</div>
