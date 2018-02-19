@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import World from './World/World'
+import Base from './Base/Base'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <World />
+      <Base />
       </div>
     );
   }
