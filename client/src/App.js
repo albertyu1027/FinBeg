@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import World from "./pages/Home";
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -12,12 +15,23 @@ class App extends Component {
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-
-          <h1>HI KATIE : ) </h1>
         </p>
+
       </div>
     );
   }
 }
+
+// const App = () => (
+//   <Router>
+//     <div>
+//       <Switch>
+//         <Route exact path="/" component={LoginForm} />
+//         <Route exact path="/dash" component={Dashboard} />
+
+//       </Switch>
+//     </div>
+//   </Router>
+// );
 
 export default App;
