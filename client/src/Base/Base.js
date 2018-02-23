@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Base.css'
 import Chart from "../Chart/Chart"
+// import World from '../World/World'
 
 class Base extends Component {
 	render() {
@@ -17,8 +18,8 @@ class Base extends Component {
 
 				<div className="st-scroll">
 					<section className="st-panel" id="st-panel-1">
-					<h2>World Map</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A scelerisque purus semper eget duis at tellus at urna. Pellentesque nec nam aliquam sem et tortor consequat.</p>
+					
+					<h2>World</h2>
 					</section>
 
 					<section className="st-panel" id="st-panel-2">
