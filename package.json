@@ -18,6 +18,11 @@
   },
   "dependencies": {
     "express": "^4.15.4",
+<<<<<<< HEAD
     "react-simple-maps": "^0.10.3"
+=======
+    "google-stocks": "^2.0.1",
+    "mongoose": "^5.0.6"
+>>>>>>> 64258d8d73ed7298d1de525bc65add7f78928001
   }
 }
