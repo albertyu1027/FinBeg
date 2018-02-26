@@ -1,0 +1,33 @@
+.clock {
+	color: red;
+	text-align: center;
+}
+
+.articles, .world {
+	text-align: center;
+}
+
+.world li {
+	list-style: none;
+	border: solid 0.5em black;
+	margin-top: 20px;
+}
+
+.world li span {
+	display: block;
+}
+
+.daily, h3 {
+	text-align: center;
+}
+
+.subscribe form {
+	text-align: center;
+	width: 50%;
+	height: 150px;
+	margin: auto;
+}
+
+.subscribe form input {
+	text-align: center;
+}
