@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Polar } from 'react-chartjs-2'
+import { Polar, Pie } from 'react-chartjs-2'
 import './Chart.css'
 
 const data = {
@@ -10,6 +10,7 @@ const data = {
 	}],
 	labels: ['1', '2', '3', '4', '5']
 };
+
 
 class Chart extends Component {
 
@@ -25,6 +26,11 @@ class Chart extends Component {
 				<div className="info col-md-4">
 					<h3>Market Name</h3>
 					<h3>Market Cap</h3>
+
+ <input type="text" name="fname"></input>
+ <input type="text" name="lname"></input>
+ <input id="submit" type="submit" value="Submit"></input>
+
 				</div>
 			</div>	
 			</div>

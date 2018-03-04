@@ -9,4 +9,6 @@ export default {
   getData: function(id) {
     return axios.get("/api/data/" + id);
   }
+
+  //POST
 };
